@@ -1,0 +1,30 @@
+# Core dependencies
+requests>=2.31.0
+
+# Phase 2: Advanced Features (install as needed)
+
+# Real embeddings
+# sentence-transformers>=2.2.0  # For semantic code search
+# transformers>=4.30.0          # For CodeBERT embeddings
+# torch>=2.0.0                  # Required by transformers
+
+# Vector store
+# faiss-cpu>=1.7.4              # CPU version
+# faiss-gpu>=1.7.4              # GPU version (requires CUDA)
+
+# Better CLI
+# rich>=13.0.0                  # Rich text and formatting
+
+# Development tools
+# pytest>=7.4.0                 # Testing framework
+# pytest-cov>=4.1.0             # Coverage reports
+# black>=23.0.0                 # Code formatter
+# flake8>=6.0.0                 # Linter
+# mypy>=1.4.0                   # Type checker
+# bandit>=1.7.5                 # Security checker
+
+# Quick install commands:
+# Basic:     pip install requests
+# Embeddings: pip install sentence-transformers
+# Vector DB:  pip install faiss-cpu
+# Dev tools:  pip install pytest black flake8 mypy bandit pytest-cov
