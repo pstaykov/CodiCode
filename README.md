@@ -294,33 +294,6 @@ class MyLLMBackend(BaseLLM):
 
 2. Update `main.py` to use your backend.
 
-## Roadmap
-
-### Phase 1 (Current) ✅
-- [x] Core agent loop
-- [x] Tool system with file/shell/search tools
-- [x] Ollama integration
-- [x] Diff engine
-- [x] Basic CLI
-- [x] Stub codebase intelligence
-
-### Phase 2 (Future)
-- [ ] Real embeddings (sentence-transformers)
-- [ ] AST-based semantic chunking
-- [ ] Persistent vector store (FAISS/ChromaDB)
-- [ ] llama.cpp and vLLM backends
-- [ ] Streaming LLM responses in CLI
-- [ ] Multi-file context management
-- [ ] Git integration tool
-- [ ] Test execution and validation tools
-
-### Phase 3 (Future)
-- [ ] Web UI
-- [ ] Code review capabilities
-- [ ] Multi-agent collaboration
-- [ ] Fine-tuned models for coding tasks
-- [ ] Benchmark suite
-
 ## Safety Features
 
 - **Command validation** - Dangerous shell commands are blocked
@@ -354,11 +327,9 @@ MIT License - See LICENSE file for details
 
 Inspired by:
 - Claude Code (Anthropic)
-- AutoGPT
-- OpenDevin
 
 Built with clean architecture principles and no heavy frameworks.
 
 ---
 
-**Built by the open-source community for local-first AI coding.**
+**Built by me for local-first AI coding.**
